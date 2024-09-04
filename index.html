@@ -1,0 +1,83 @@
+<!--
+By: Abdulganiyu Babatunde, bababdulg@gmail.com, 6474505223
+#Date created: 1/27/2024
+#Date last modified: 2/2/2024
+<!DOCTYPE html>
+-->
+
+<html>
+
+<head>
+    <title>
+        Calculator
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="Calculator">
+    <input id="display" readonly value="0">
+    
+    <div id="keys">
+        <button id="func", onclick="appendToDisplay('+')">+</button>
+        <button id="num", onclick="appendToDisplay('7')">7</button>
+        <button id="num", onclick="appendToDisplay('8')">8</button>
+        <button id="num", onclick="appendToDisplay('9')">9</button>
+        <button id="func", onclick="appendToDisplay('-')">-</button>
+        <button id="num", onclick="appendToDisplay('4')">4</button>
+        <button id="num", onclick="appendToDisplay('5')">5</button>
+        <button id="num", onclick="appendToDisplay('6')">6</button>
+        <button id="func", onclick="appendToDisplay('*')">*</button>
+        <button id="num", onclick="appendToDisplay('1')">1</button>
+        <button id="num", onclick="appendToDisplay('2')">2</button>
+        <button id="num", onclick="appendToDisplay('3')">3</button>
+        <button id="func", onclick="appendToDisplay('/')">/</button>
+        <button id="num", onclick="appendToDisplay('0')">0</button>
+        <button id="num", onclick="appendToDisplay('.')">.</button>
+        <button id="num", onclick="evaluateExpression()">=</button>
+        <button id="func", onclick="clearDisplay()">C</button>
+        <button id="func", onclick="appendToDisplay('(')">(</button>
+        <button id="func", onclick="appendToDisplay(')')">)</button>
+</div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.6.0/math.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+    <a href="page2.html" target=_blank title="This takes you to youtube"><!--This is used to create hyperlinks, anything code written inside this becomes a hyperlink
+    target=_blank opens the link in a anew tab
+    target=_self is the default which opens in the same tab
+    title="This takes you to youtube" a box that pops up when hovering over the link
+        page2
+    </a>
+    <img src="" height="" width="" alt="This a picture of" title="Image hover text">
+
+    <audio controls autoplay muted loop src=""></audio>
+    <p>
+    <h4>Ordered list</h4>
+    <ol type="A">
+        <li>Wake up</li>
+        <li>Shower</li>
+        <li>Go to class</li>
+    </ol>
+
+</p>
+    <h4>Description List</h4>
+    <dl>
+        <dt>HTML</dt>
+        <dd>This adds structure to a webpage</dd>
+    </dl>
